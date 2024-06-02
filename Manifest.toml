@@ -1,0 +1,20 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.10.3"
+manifest_format = "2.0"
+project_hash = "4a956a592d72e9d967beb691a238d472d28569c6"
+
+[[deps.PlotlyExtensionsHelper]]
+git-tree-sha1 = "20bfc5370cc79103977bfeaff150d8747bd58556"
+repo-rev = "main"
+repo-url = "https://github.com/disberd/PlotlyExtensionsHelper.jl"
+uuid = "a7e57fc7-3548-4021-90c3-ac0e175068b1"
+version = "0.1.0"
+
+    [deps.PlotlyExtensionsHelper.extensions]
+    PlotlyBaseExt = "PlotlyBase"
+    PlutoPlotlyExt = "PlutoPlotly"
+
+    [deps.PlotlyExtensionsHelper.weakdeps]
+    PlotlyBase = "a03496cd-edff-5a9b-9e67-9cda94a718b5"
+    PlutoPlotly = "8e989ff0-3d88-8e9f-f020-2b208a939ff0"
